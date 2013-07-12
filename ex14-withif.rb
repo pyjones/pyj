@@ -7,8 +7,7 @@ puts "please write either YES or NO"
 print prompt
 questions = STDIN.gets.chomp()
 
-if 
-	questions == 'YES'
+if questions == 'YES'
 	puts "So first question:"
 	puts "where do you live?"
 	print prompt
